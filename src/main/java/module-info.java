@@ -4,4 +4,5 @@ module sample.maven.and.tests {
 
     exports sample;
 
+    requires transitive org.junit.jupiter.api;
 }
